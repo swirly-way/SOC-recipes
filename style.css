@@ -9,6 +9,7 @@ html,body {
 }
 
 .content-left{
+    background-color: bisque;
     display: flex;
     width: 50%;
     height: 100%;
@@ -18,6 +19,7 @@ html,body {
 }
 
 .content-right{
+    background-image: url("./recipe-img/bg-image.png");
     display: flex;
     width: 50%;
     height: 100%;
@@ -28,6 +30,7 @@ html,body {
 
 .chef-profile{
     display: flex;
+    margin-left: 20px;
     flex-direction: column;
     align-items: center;
 }
