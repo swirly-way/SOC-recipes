@@ -11,7 +11,7 @@ html,body {
 .content-left{
     background-color: bisque;
     display: flex;
-    width: 50%;
+    width: 40%;
     height: 100%;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@ html,body {
 .content-right{
     background-image: url("./recipe-img/bg-image.png");
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 100%;
     flex-direction: column;
     justify-content: center;
@@ -39,3 +39,19 @@ html,body {
     width: 50%;
 
 }
+
+ul {
+    list-style: none;
+  }
+
+  a:link, a:visited {
+    color: rgb(134, 133, 39);
+  }
+  
+  a:hover {
+    color: rgb(173, 71, 40);
+  }
+
+  li {
+    margin: 10px 0;
+  }
